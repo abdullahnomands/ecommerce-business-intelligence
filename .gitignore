@@ -1,0 +1,30 @@
+﻿# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Keep folder documentation
+!data/raw/README.md
+!data/processed/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local database exports and logs
+*.dump
+*.backup
+*.log
+
+# Power BI temporary/backup files
+*.bak
